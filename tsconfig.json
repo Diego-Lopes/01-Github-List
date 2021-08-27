@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], //adiciona algumas funcionalidades
+    "allowJs": true, //diz que pode haver arquivos tanto javascript quanto typescript
+    "jsx": "react-jsx", //entende que vamos escreve html dentro de typescript.
+    "noEmit": true, //depois feito o build ele não emite o código dela.
+    "strict": true, //module de lidar com erros.
+    "moduleResolution": "node",
+    "resolveJsonModule": true, //adiciona a possibilidade de importar arquivo json
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"] //onde o typescript está executando. caso tenha em outro lugar colocar também.
+}
